@@ -1,0 +1,24 @@
+{
+  "name": "proj_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@some-company/mod_1": "file:../../modules/mod_1/pkg",
+    "@types/node": "^14.14.11"
+  }
+}

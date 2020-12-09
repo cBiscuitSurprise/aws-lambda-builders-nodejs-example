@@ -1,0 +1,8 @@
+**/node_modules
+**/build
+**/pkg
+
+**/package-lock.json
+
+*.tgz
+*.tar
